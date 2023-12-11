@@ -2,9 +2,9 @@
   <div class="navigation-component">
     <ul class="nav-links">
       <li><a href="#">Accueil</a></li>
-      <li><a href="#">Nouveautés</a></li>
-      <li><a href="#">A propos</a></li>
       <li><a href="#">Contact</a></li>
+      <li><a href="#">API</a></li>
+      <li><a href="#">Autre</a></li>
     </ul>
   </div>
 </template>
