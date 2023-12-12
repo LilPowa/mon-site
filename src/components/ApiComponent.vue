@@ -86,10 +86,6 @@ label {
   font-weight: bold;
 }
 
-#second-block {
-  /* display: none; */
-}
-
 button {
   appearance: none;
   background-color: #42b983;
