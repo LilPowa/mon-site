@@ -1,10 +1,21 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <NavigationComponent />
   </nav>
-  <router-view/>
+  <main>
+    <RouterView />
+  </main>
 </template>
+
+<script>
+  import NavigationComponent from './components/NavigationComponent.vue';
+
+  export default{
+    components: {
+      NavigationComponent,
+    }
+  }
+</script>
 
 <style>
 #app {

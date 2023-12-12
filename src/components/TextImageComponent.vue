@@ -12,13 +12,14 @@ export default {
 
 <style scoped>
 .text-image-component {
-  flex-direction: row;
   display: flex;
-  justify-content: space-evenly;
   padding-top: 20px;
+  width: 70%;
+  align-items: center;
 }
 
 img{
-  width: 200px;
+  width: 150px;
+
 }
 </style>

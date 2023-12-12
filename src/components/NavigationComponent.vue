@@ -1,10 +1,10 @@
 <template>
   <div class="navigation-component">
     <ul class="nav-links">
-      <li><a href="#">Accueil</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">API</a></li>
-      <li><a href="#">Autre</a></li>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/contact">Contact</router-link></li>
+      <li><router-link to="/api">API</router-link></li>
+      <li><router-link to="/autre">Autre</router-link></li>
     </ul>
   </div>
 </template>
@@ -26,11 +26,11 @@ export default {
   padding: 0;
 }
 
-.nav-links > li {
+.nav-links>li {
   display: inline-block;
 }
 
-.nav-links > li + li {
+.nav-links>li+li {
   margin-left: 30px;
 }
 </style>
